@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+
+@font-face {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Metropolis Medium"), url("../fonts/Metropolis-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Metropolis Semi Bold"), url("../fonts/Metropolis-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Metropolis Bold"), url("../fonts/Metropolis-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 900;
+    src: local("Metropolis Black"), url("../fonts/Metropolis-Black.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Metropolis", sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 27px 0 0;
+    background: linear-gradient(to left, #ffeaf5 710px, #fff 0);
+    min-height: 727px;
+    position: relative;
+}
+
+nav {
+    max-width: 1169px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxmenu {
+    display: flex;
+    gap: 26px;
+    list-style: none;
+}
+
+.boxmenu li a {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #010101;
+}
+
+.boxsearch {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.btns1 {
+    background: #ed017f;
+    border-radius: 4px;
+    padding: 8px 20px;
+
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.headerBottom {
+    margin-left: 135px;
+    margin-top: 142px;
+}
+
+.leftbox h1 {
+    font-weight: 900;
+    font-size: 63px;
+    line-height: 68px;
+    color: #010101;
+    max-width: 453px;
+}
+
+.leftbox > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #676767;
+    margin-top: 23px;
+    max-width: 380px;
+}
+
+.btnsleft {
+    margin-top: 38px;
+    display: flex;
+    gap: 20px;
+}
+
+.btnleft {
+    background: #ed017f;
+    border-radius: 4px;
+    padding: 13px 23px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.btnright {
+    padding: 13px 20px;
+    border: 1px solid #ed017f;
+    border-radius: 4px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ed017f;
+}
+
+.infobox {
+    margin-top: 185px;
+    display: flex;
+    gap: 18px;
+}
+
+.infoleft {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.infoleft p {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #010101;
+}
+
+.line {
+    border: 1px solid #cccccc;
+}
+
+.inforight {
+    display: flex;
+    gap: 16px;
+}
+
+.boxright {
+    position: absolute;
+    right: 0;
+    top: 114px;
+}
+
+.swiper-slide img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper {
+    width: 883px;
+    height: 654px;
+}
+
+.swiper-pagination {
+    right: 67px !important;
+    left: unset !important;
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: #cccccc;
+    margin: 10px auto !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #f467b2;
+    box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+    width: 13px;
+    height: 13px;
+}
+
+.btnright1,
+.btnright2 {
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+    border-radius: 55px;
+    padding: 24.5px 27px;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.btnright1 p,
+.btnright2 p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #343434;
+}
+
+.btnright1 {
+    top: 30px;
+    left: 102px;
+}
+
+.btnright2 {
+    top: 142px;
+    right: 58px;
+}
