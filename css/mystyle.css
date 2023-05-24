@@ -96,7 +96,7 @@ nav {
     margin-top: 142px;
 }
 
-.leftbox h1 {
+.leftbox h2 {
     font-weight: 900;
     font-size: 63px;
     line-height: 68px;
@@ -290,3 +290,52 @@ nav {
     line-height: 24px;
     color: #999999;
 }
+
+.section2 {
+    padding: 78px 0 69px;
+}
+
+.s2title {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    letter-spacing: 2.1px;
+    color: #343434;
+    text-align: center;
+    margin-bottom: 88px;
+}
+
+.caruselbox {
+    margin: 0 135px;
+}
+
+.owl-carousel .owl-item img {
+    width: unset;
+}
+
+.owl-dots {
+    margin-top: 67px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    align-items: center;
+    list-style: none;
+}
+
+.owl-dot span {
+    background: #cccccc;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+}
+
+
+.owl-dot.active > span {
+    width: 13px;
+    height: 13px;
+    background: #f467b2;
+    box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+}
+
