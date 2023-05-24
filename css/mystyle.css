@@ -37,7 +37,7 @@
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -222,6 +222,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 19px;
+    z-index: 1;
 }
 
 .btnright1 p,
@@ -240,4 +241,52 @@ nav {
 .btnright2 {
     top: 142px;
     right: 58px;
+}
+
+.section1 {
+    padding: 100px 0 72px;
+}
+
+.s1title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #343434;
+}
+
+.s1subtitle {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+}
+
+.s1boxes {
+    margin: 76px 75px 0 135px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, 259px));
+    justify-content: space-between;
+}
+
+.s1box {
+    padding: 24px 75px 24px 24px;
+}
+
+.s1box-name {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #363940;
+}
+
+.s1box-descr {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
 }
