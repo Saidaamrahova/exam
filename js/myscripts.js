@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-var swiper;
+let swiper;
 
 function initializeSwiper() {
     if (window.innerWidth < 992) {
@@ -38,6 +38,15 @@ window.addEventListener("resize", function () {
     }
     initializeSwiper();
 });
+
+if (window.innerWidth < 768) {
+    const carousel = document.querySelector(".owl-carousel");
+    const elements = carousel.querySelectorAll("div");
+
+    for (let i = 4; i < elements.length; i++) {
+        carousel.removeChild(elements[i]);
+    }
+}
 
 $(".owl-carousel").owlCarousel({
     responsiveClass: true,
