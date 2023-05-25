@@ -41,6 +41,18 @@
     margin: 0 auto;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ed017f;
+}
+
 header {
     padding: 27px 0 0;
     background: linear-gradient(to left, #ffeaf5 710px, #fff 0);
@@ -56,10 +68,43 @@ nav {
     align-items: center;
 }
 
+.boxlogo {
+    transition: all 0.3s;
+}
+
+.boxlogo:hover {
+    transform: scale(1.1);
+}
+
 .boxmenu {
     display: flex;
     gap: 26px;
     list-style: none;
+}
+
+.boxmenu li {
+    position: relative;
+    transition: all 0.5s;
+}
+
+.boxmenu li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background: #ed017f;
+    transition: all 0.3s;
+}
+
+.boxmenu li:hover::after {
+    width: 100%;
+}
+
+.boxmenu li:hover {
+    transform: translateY(-3px);
 }
 
 .boxmenu li a {
@@ -77,6 +122,15 @@ nav {
     gap: 33px;
 }
 
+.boxsearch img {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.boxsearch img:hover {
+    transform: scale(1.1);
+}
+
 .btns1 {
     background: #ed017f;
     border-radius: 4px;
@@ -89,6 +143,7 @@ nav {
     text-align: center;
     letter-spacing: 2px;
     color: #ffffff;
+    border: 1px solid #ed017f;
 }
 
 .headerBottom {
@@ -272,6 +327,19 @@ nav {
 
 .s1box {
     padding: 24px 75px 24px 24px;
+    transition: all 0.5s;
+}
+
+.s1box:hover {
+    transform: scale(1.05);
+}
+
+.owl-item div img {
+    transition: all 0.3s;
+}
+
+.owl-item div img:hover {
+    transform: scale(1.1);
 }
 
 .s1box-name {
@@ -376,6 +444,7 @@ nav {
     margin-top: 44px;
     align-items: center;
     gap: 7px;
+    cursor: pointer;
 }
 
 .s3link p {
@@ -390,6 +459,14 @@ nav {
 .section4 {
     padding: 106px 0 130px;
     background: #fef9fc;
+}
+
+.s4item-img img {
+    transition: all 0.3s;
+}
+
+.s4item-img img:hover {
+    scale: 1.03;
 }
 
 .s4title {
@@ -441,6 +518,10 @@ nav {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #363940;
+}
+
+.s4item-text img {
+    cursor: pointer;
 }
 
 .section5 {
@@ -561,6 +642,7 @@ form input {
     font-size: 16px;
     line-height: 22px;
     color: #cccccc;
+    outline: none;
 }
 
 form button {
@@ -578,6 +660,8 @@ form button {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #ed017f;
 }
 
 footer {
@@ -629,6 +713,35 @@ footer {
     flex-direction: column;
     gap: 10px;
     list-style: none;
+}
+
+.footer-list li {
+    transition: all 0.5s;
+}
+
+.footer-list li a {
+    position: relative;
+    transition: all 0.5s;
+}
+
+.footer-list li a::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background: #ed017f;
+    transition: all 0.3s;
+}
+
+.footer-list li a:hover::after {
+    width: 100%;
+}
+
+.footer-list li:hover {
+    transform: translateY(-3px);
 }
 
 .footer-list li a {
