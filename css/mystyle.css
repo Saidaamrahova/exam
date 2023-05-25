@@ -331,7 +331,6 @@ nav {
     border: none;
 }
 
-
 .owl-dot.active > span {
     width: 13px;
     height: 13px;
@@ -339,3 +338,46 @@ nav {
     box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
 }
 
+.s3content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s3rightbox {
+    padding: 140px 260px 59px 102px;
+}
+
+.s3title {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #343434;
+}
+
+.s3subtitle {
+    margin-top: 10px;
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #676767;
+}
+
+.s3link {
+    display: flex;
+    margin-top: 44px;
+    align-items: center;
+    gap: 7px;
+}
+
+.s3link p {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.3333px;
+    line-height: 27px;
+    color: #ed017f;
+}
