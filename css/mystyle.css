@@ -453,7 +453,6 @@ nav {
 }
 
 .s5subtitle {
-    margin-top: 20px;
     font-family: "Metropolis";
     font-style: normal;
     font-weight: 400;
@@ -461,6 +460,8 @@ nav {
     line-height: 22px;
     text-align: center;
     color: #999999;
+    max-width: 548px;
+    margin: 20px auto 0;
 }
 
 .s5content {
@@ -496,6 +497,80 @@ nav {
 }
 
 .s5item:hover .s5item-num {
-    color: #ED017F;
+    color: #ed017f;
     transform: translateY(-5px);
+}
+
+.section6 {
+    padding: 100px 0 116px;
+    background: #fef9fc;
+}
+
+.s6title {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.s6subtitle {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+    max-width: 410px;
+    margin: 20px auto 0;
+}
+
+form {
+    margin-top: 34px;
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+}
+
+::placeholder {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #cccccc;
+}
+
+form input {
+    padding: 12px 15px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    width: 343px;
+
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #cccccc;
+}
+
+form button {
+    padding: 13px 24px;
+    background: #ed017f;
+    border-radius: 4px;
+
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    border: none;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
