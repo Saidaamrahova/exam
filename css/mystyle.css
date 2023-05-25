@@ -293,6 +293,7 @@ nav {
 
 .section2 {
     padding: 78px 0 69px;
+    background: rgba(252, 224, 239, 0.2);
 }
 
 .s2title {
@@ -380,4 +381,60 @@ nav {
     font-size: 19.3333px;
     line-height: 27px;
     color: #ed017f;
+}
+
+.section4 {
+    padding: 106px 0 130px;
+    background: #fef9fc;
+}
+
+.s4title {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #343434;
+}
+
+.s4subtitle {
+    margin-top: 20px;
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+}
+
+.s4content {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, 254px));
+    gap: 50px;
+    justify-content: center;
+}
+
+.s4item-text {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 22px;
+    justify-content: space-between;
+}
+
+.s4item-text p {
+    max-width: 195px;
+
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #363940;
 }
