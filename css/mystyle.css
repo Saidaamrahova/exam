@@ -757,6 +757,12 @@ footer {
     display: none;
 }
 
+.hide_burger {
+    display: none;
+    width: 26px;
+    height: 16px;
+}
+
 @media (max-width: 1400px) {
     .headerBottom {
         margin-left: 38px;
@@ -849,6 +855,9 @@ footer {
 }
 
 @media (max-width: 992px) {
+    .hide_burger.active {
+        display: block;
+    }
     nav {
         position: relative;
     }
@@ -1028,6 +1037,9 @@ footer {
 }
 
 @media (max-width: 576px) {
+    .hamburger_active {
+        right: 21px;
+    }
     .boxsearch img,
     .boxsearch a {
         display: none;
